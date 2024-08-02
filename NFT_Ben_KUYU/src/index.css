@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+ 
+ 
+@layer components {
+    .btn-blue {
+      @apply bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded;
+    }
+
+    .header2{
+      @apply text-3xl font-bold mb-9;
+    }
+    .btn-signUp{
+      @apply font-semibold py-1 px-[26px] border-r-2 border-nft-800
+    }
+    .btn-connectWallet{
+      @apply bg-nft-900 text-white py-[10px] px-[26px] rounded-full
+    }
+    .btn-hover{
+      @apply hover:bg-nft-800 hover:text-white transition-all duration-300
+    }
+
+
+  }
